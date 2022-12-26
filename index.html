@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <title>Shivam s Gym</title>
+        <style>
+            body{
+                color:white;
+                margin:0px;
+                padding:0px;
+                background:url(train.jpg);
+
+            }
+
+            .left{
+                display:inline-block;
+               /* border:2px solid red;*/
+                position: absolute;
+                left:34px;
+                top:20px;
+            }
+
+            .mid{
+                display:block;
+                width:45%;
+                margin: 20px auto;
+            }
+
+            .right{
+                display:inline-block;
+                position: absolute;
+                right:34px;
+                top:20px;
+            }
+            .navbar{
+                display:inline-block;
+
+            }
+            .navbar li{
+                font-size:20px;
+                display:inline-block;
+            }
+
+            .navbar li a{
+                color:white;
+                text-decoration:none;
+                padding:34px 23px;
+            }
+            .navbar li a:hover,.navbar li a.active{
+                text-decoration:underline;
+                color:grey;
+            }
+            .logo{
+                font-size:20px;
+                margin:6px;
+                padding:6px;
+            }
+            .btn{
+                font-size:20px;
+                margin:6px;
+                padding:6px 10px;
+                border:2px solid grey;
+                border-radius:10px;
+                color:white;
+                background-color:black;
+                cursor:pointer;
+            }
+            .btn:hover{
+                background-color:grey;
+            }
+
+            .container{
+                font-family:cursive;
+                border:2px solid white;
+                border-radius:10px;
+                margin:106px 80px;
+                padding:75px;
+                width:33%;
+            }
+
+            .form{
+                text-align:center;
+                display:block;
+                width:190px;
+                padding:6px;
+                margin:10px auto;
+                border:2px solid black;
+                border-radius:10px;
+            }
+            .container h1{
+                text-align:center;
+            }
+
+
+            .container button{
+                display:block;
+                width:23%;
+                margin:10px auto ;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="left">
+                <div class="logo">Shivam S gym</div>
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitness Calc</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Call Us</button>
+                <button class="btn">Email Us</button>
+            </div>
+        </header>
+        <div class="container">
+                <h1>Join Best Gym Of Ghaziabad</h1>
+                <form action="noaction.php">
+                   <div class="form">
+                       <h3>UserName :</h3>
+                       <input type="text" >
+                        <h3>NUmber: </h3>
+                       <input type="text" >
+                   </div>
+                   <button class="btn">Submit</button>
+                </form>
+        </div>
+    </body>
+</html>
